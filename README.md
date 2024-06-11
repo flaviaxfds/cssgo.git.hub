@@ -4,3 +4,5 @@ Caso note alguma coisa de errado no código ou algo que eu possa melhorar, sinta
 
 
 ## :) ## 
+
+Minha proposta é fazer um site que possa contar a história do CS de um modo geral.
