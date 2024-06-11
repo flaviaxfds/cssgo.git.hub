@@ -12,3 +12,7 @@ Minha proposta é fazer um site que possa contar a história do CS de um modo ge
 HTML;
 
 CSS.
+
+## FIZ UMA ATUALIZAÇÃO
+
+Quis deixar o site mais moderno, então resolvi começar tudo do zero.
