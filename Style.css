@@ -15,25 +15,36 @@ body {
 
 header, main {
     margin: 0;
-    padding: 10px;
+    padding: 50px;
 }
+
+.barra-superior {
+    background-color: #141414; 
+    color: #ffffff;
+}
+
+
 .navbar {
     list-style: none;
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
+    margin-left: 450px;
 }
+
 .navbar li {
     margin: 0 15px;
 }
+
 .navbar a {
-    color: rgb(22, 17, 17);
+    color: #ffffff; 
     text-decoration: none;
     padding: 10px 15px;
     display: block;
 }
+
 .navbar a:hover {
-    background-color: #272885;
+    background-color: #88888a;
     border-radius: 4px;
 }
