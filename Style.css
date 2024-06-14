@@ -30,11 +30,10 @@ nav {
     height: 70px;
     margin-right: 45px;
     margin-left: 80px;
-    background-image: url('https://www.freepnglogos.com/uploads/counter-strike-png-logo/counter-strike-global-offensive-full-version-png-logo-3.png'); /* Caminho relativo à imagem */
+    background-image: url('https://www.freepnglogos.com/uploads/counter-strike-png-logo/counter-strike-global-offensive-full-version-png-logo-3.png');
     background-size: contain; 
     background-repeat: no-repeat;
     
-
 }
 
 .navbar {
@@ -104,4 +103,4 @@ section {
     color: #212121;
    
     padding-bottom: 50px;
-}
+} 
