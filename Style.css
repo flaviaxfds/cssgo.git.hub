@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "ubuntu", sans-serif;
     line-height: 1.5;
     display: flex;
     flex-direction: column;
@@ -15,6 +15,11 @@ body {
 header, main, footer {
     padding: 20px;
 }
+main {
+    background-image: url('https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw-wz/COD-20TH-ANNIVERSARY-023.jpg');
+
+    
+
 
 .barra-superior {
     background-color: #141414;
@@ -30,11 +35,10 @@ nav {
     height: 70px;
     margin-right: 45px;
     margin-left: 80px;
-    background-image: url('https://www.freepnglogos.com/uploads/counter-strike-png-logo/counter-strike-global-offensive-full-version-png-logo-3.png'); /* Caminho relativo à imagem */
+    background-image: url('https://pluspng.com/img-png/call-of-duty-logo-png-call-of-duty-logo-png-7-endangered-esports-459x129.png');
     background-size: contain; 
     background-repeat: no-repeat;
     
-
 }
 
 .navbar {
@@ -71,6 +75,9 @@ nav {
     margin-top: auto;
     width: 100%;
 }
+footer p {
+    font-size: 12px;
+}
 
 @media (max-width: 768px) {
     .logo {
@@ -103,5 +110,133 @@ section {
     text-align: start;
     color: #212121;
    
+    padding-bottom: 50px;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "ubuntu", sans-serif;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw-wz/COD-20TH-ANNIVERSARY-023.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.1; 
+    z-index: -1;
+}
+
+.barra-superior {
+    background-color: #141414;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo-background {
+    height: 70px;
+    margin-right: 45px;
+    margin-left: 40px;
+    background-image: url('https://pluspng.com/img-png/call-of-duty-logo-png-call-of-duty-logo-png-7-endangered-esports-459x129.png');
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 45px;
+    padding: 0;
+    margin-left: 70%;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #212121;
+    border-radius: 4px;
+}
+
+.barra-inferior {
+    background-color: #212121;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: auto;
+    width: 100%;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 40px;
+    }
+    .navbar li {
+        margin: 5px 0;
+    }
+}
+
+.capacss {
+    width: 100%;
+    height: 570px;
+    background-image: url('https://cdn-62cb22a2c1ac1835ecef9f37.closte.com/wp-content/uploads/2022/01/csgotr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section ul,
+.section1 ul,
+.section2 ul,
+.section3 ul,
+.section4 ul,
+.section5 ul {
+    list-style-type: none;
+}
+
+section {
+    text-align: start;
+    color: #040404;
     padding-bottom: 50px;
 }
