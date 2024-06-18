@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root {
-    font-size: 100%;
-}
+
 body {
     font-family: "ubuntu", sans-serif;
     line-height: 1.5;
@@ -127,5 +125,5 @@ section {
     text-align: start;
     color: #040404;
     padding-bottom: 50px;
-}
 
+}

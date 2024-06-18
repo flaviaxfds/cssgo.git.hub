@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.barra-superior {
+    background-color: #141414;
+    color: #ffffff;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo-background {
+    height: 70px;
+    margin-right: 45px;
+    margin-left: 40px;
+    background-image: url('https://pluspng.com/img-png/call-of-duty-logo-png-call-of-duty-logo-png-7-endangered-esports-459x129.png');
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 45px;
+    padding: 0;
+    margin-left: 70%;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #212121;
+    border-radius: 4px;
+}
